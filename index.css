@@ -1,0 +1,149 @@
+body {
+  background-color: black;
+  font:"Old english tekst mt";
+}
+
+#tabs {
+  background-color: lightgreen;
+
+}
+
+#tabs-1 {
+  color: White;
+  min-height: 1000px;
+  background-image:url(Afbeeldingen/logo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#tabs-2 {
+  min-height: 1000px;
+  background-image:url(Afbeeldingen/logo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#tabs-3 {
+  align-items: center;
+  min-height: 1000px;
+  background-image:url(Afbeeldingen/logo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#tabs-4 {
+  min-height: 1000px;
+  background-image:url(Afbeeldingen/logo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#tabs-5 {
+  min-height: 1000px;
+  background-image:url(Afbeeldingen/logo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#tabs-6 {
+  color: white;
+  min-height: 600px;
+  background-image:url(Afbeeldingen/logo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#leden {
+  border: 1px;
+  border-color: black;
+  background-color: red;
+  border-radius: 25px;
+  max-width: 250px;
+  float: left;
+  margin-left: 5px;
+}
+
+#bestuur {
+  float: left;
+  border: 1px;
+  border-color: black;
+  background-color: yellow;
+  border-radius: 25px;
+  max-width: 250px;
+}
+
+#nieuw {
+  padding: 10px;
+  float: left;
+  border: 1px;
+  border-color: black;
+  background-color: blue;
+  border-radius: 25px;
+  max-width: 200px;
+  margin-left: 5px;
+}
+.naam {
+  font-size: 20px;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+.titel {
+  font-style: italic;
+}
+p {
+    margin-left: 15px;
+}
+
+h2 {
+  color: Black;
+  text-align: center;
+}
+
+h3 {
+  border: 1px;
+  border-color: black;
+  background-color: blue;
+  border-radius: 25px;
+  max-width: 200px;
+  text-align: center;
+  padding: 20px;
+}
+table {
+  color:red;
+  text-align: center;
+}
+
+footer {
+  background-color: lightgreen;
+  text-align: center;
+}
+textarea {
+  height: 100px;
+  width: 300px;
+  box-shadow: 2px 2px 2px black;
+}
+button {
+  text-align: center;
+  padding:5px;
+  display: block;
+  margin-top:10px;
+  width: 100px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: outset 2px 2px 5px black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button:active{
+  background-color: gray;
+  color: white;
+  border-radius: 10px;
+  box-shadow: outset 2px 2px 5px gray;
+}
